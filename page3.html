@@ -92,6 +92,66 @@
   <button type="button" class="btn btn-primary btn-block">Submit</button> 
   </form> 
 </div>
+         <form> 
+    <div class="mb-3 mt-3"> 
+      <label for="email">Full Name</label> 
+      <input type="email" class="form-control" 
+    id="email" placeholder="Enter Full name" name="fullname> 
+    </div> 
+    
+    <div class="mb-3 mt-3"> 
+      <label for="email"> Email </label> 
+      <input type="Email/Contacts" class="form-control" 
+      id="email" placeholder="Enter Email/Contacts" name="contacts"> 
+    </div> 
+    
+    <div class="mb-3 mt-3"> 
+      <label for="birthdate"> Date of Birth </label> 
+      <input type="Email/Contacts" class="form-control" 
+      id="birthdate" placeholder="Enter Date of Birth" name="birthdate"> 
+    </div> 
+    
+   <div class="mb-4">
+    <label for="program" class="form-label">Desired Program Level</label>
+    <select class="form-select" id="program" required>
+        <option selected disabled value="">Choose your enrollment program...</option>
+        
+        <optgroup label="Pre-School Montessori">
+            <option value="casa1">Casa I (Nursery)</option>
+            <option value="casa2">Casa II (Kinder)</option>
+        </optgroup>
+        
+        <option value="elem">Elementary (Grade 1 - 6)</option>
+        <option value="jhs">Junior High School (Grade 7 - 10)</option>
+        <option value="shs">Senior High School (Grade 11 - 12)</option>
+        
+    </select>
+</div>
+
+<div class="mb-4">
+    <label for="campus" class="form-label">Preferred Campus Location</label>
+    <select class="form-select" id="campus" required>
+        <option selected disabled value="">Select Campus...</option>
+        <option value="fairview">Fairview</option>
+        <option value="angeles">Angeles</option>
+        <option value="greenhills">Greenhills</option>
+        <option value="laspinas">Las Pinas</option>
+        <option value="staana">Sta. Ana</option>
+        
+        </select>
+</div>
+    
+     <div class="form-check mb-3"> 
+      <label class="form-check-label"> 
+        <input class="form-check-input" type="checkbox" 
+        name="remember"> Remember me 
+      </label> 
+    </div> 
+    
+  <button type="button" class="btn btn-primary btn-block">Complete Registration</button> 
+  </form> 
+</div>
+   
    
    
     </div>
@@ -101,4 +161,5 @@
 </body>
 
 </html>
+
 
